@@ -40,9 +40,18 @@ tbody {
 
 .container {
 	width: 65%;
+    max-width: 650px;
+
 	margin: auto;
-	/* border-left:1px solid black; */
-	margin-top: 20px;
+	margin-top: 10px;
+    height: calc(100vh - 7vh);
+    padding: 0 20px 0 20px;
+
+    background-color: beige;
+    border: 2px solid;
+    border-color: darkgray;
+    border-radius: 2.5%;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
 }
 h1 {
 	display: inline-block;
@@ -74,6 +83,7 @@ h1 {
 	font-size: 5rem;
 	border-bottom: 0px;
 	outline: 1px solid black;
+    background-color: white;
 }
 .mytable > tbody > tr > td {
 	outline: 1px solid black;
@@ -96,4 +106,12 @@ h1 {
     width: 100%;
     background-color:bisque;
     height:100px;
+}
+
+.container span{
+    color: darkmagenta;
+    font-size: large;
+    padding-left: 10px;
+    margin: auto;
+    font-weight: 800;
 }

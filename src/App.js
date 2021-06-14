@@ -79,22 +79,6 @@ function App() {
 	};
 
 	const formchangeHandler = (e, name1, name2, name3, name4, valid) => {
-		// if (valid === "new") {
-		// 	setisSecondOn((pre) => {
-		// 		// remove last element
-		// 		const newarr = pre.slice(0, pre.length - 1);
-		// 		const anew = [...newarr].concat({
-		// 			id: Math.floor(Math.random() * 100) + 5,
-		// 			name1: name1,
-		// 			name2: name2,
-		// 			name3: name3,
-		// 			name4: name4,
-		// 		});
-		// 		const anew2 = [...anew].concat(newrow[0]);
-		// 		return anew2;
-		// 	});
-		// }
-
 		if (valid !== "new") {
 			for (let x = 0; x < isSecondOn.length - 1; x++) {
 				if (isSecondOn[x].id === valid) {

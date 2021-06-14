@@ -25,3 +25,7 @@ form > input {
 .isNew>input{
     background-color: rgb(230, 230, 230);
 }
+.container {
+    background-color: brown;
+    font-size: 200px;
+}
