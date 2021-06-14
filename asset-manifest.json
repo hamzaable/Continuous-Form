@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Continuous-Form/static/css/main.0820741c.chunk.css",
+    "main.css": "/Continuous-Form/static/css/main.a6006049.chunk.css",
     "main.js": "/Continuous-Form/static/js/main.9c49913b.chunk.js",
     "main.js.map": "/Continuous-Form/static/js/main.9c49913b.chunk.js.map",
     "runtime-main.js": "/Continuous-Form/static/js/runtime-main.8cf57613.js",
@@ -10,13 +10,13 @@
     "static/js/3.18abf209.chunk.js": "/Continuous-Form/static/js/3.18abf209.chunk.js",
     "static/js/3.18abf209.chunk.js.map": "/Continuous-Form/static/js/3.18abf209.chunk.js.map",
     "index.html": "/Continuous-Form/index.html",
-    "static/css/main.0820741c.chunk.css.map": "/Continuous-Form/static/css/main.0820741c.chunk.css.map",
+    "static/css/main.a6006049.chunk.css.map": "/Continuous-Form/static/css/main.a6006049.chunk.css.map",
     "static/js/2.99067b2c.chunk.js.LICENSE.txt": "/Continuous-Form/static/js/2.99067b2c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8cf57613.js",
     "static/js/2.99067b2c.chunk.js",
-    "static/css/main.0820741c.chunk.css",
+    "static/css/main.a6006049.chunk.css",
     "static/js/main.9c49913b.chunk.js"
   ]
 }
