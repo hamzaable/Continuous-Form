@@ -96,7 +96,8 @@ function App() {
 	return (
 		<Fragment>
 			<div id="continer" className={classes.container}>
-				<h1>Continuous Form</h1> <span> -Enter data in any cell </span>
+				<h1>Continuous Form</h1>{" "}
+				<span> -Enter data in any cell - Add unlimited rows </span>
 				{/* Show Headers */}
 				<table>
 					<thead>
@@ -130,31 +131,35 @@ function App() {
 				</div>
 				<div id="SavedData" className={classes.saveddata}>
 					<h1>Saved Data</h1>
-					<table className={classes.mytable}>
-						<thead className={classes.myhead}>
-							<tr>
-								{headers.map((header) => {
-									if (header !== "Functions") {
-										return <th key={header}>{header}</th>;
+					<div>
+						<table className={classes.mytable}>
+							<thead className={classes.myhead}>
+								<tr>
+									{headers.map((header) => {
+										if (header !== "Functions") {
+											return (
+												<th key={header}>{header}</th>
+											);
+										}
+									})}
+								</tr>
+							</thead>
+							<tbody>
+								{isSecondOn.map((elem) => {
+									if (elem.id !== "new") {
+										return (
+											<tr key={elem.id}>
+												<td>{elem.name1}</td>
+												<td>{elem.name2}</td>
+												<td>{elem.name3}</td>
+												<td>{elem.name4}</td>
+											</tr>
+										);
 									}
 								})}
-							</tr>
-						</thead>
-						<tbody>
-							{isSecondOn.map((elem) => {
-								if (elem.id !== "new") {
-									return (
-										<tr key={elem.id}>
-											<td>{elem.name1}</td>
-											<td>{elem.name2}</td>
-											<td>{elem.name3}</td>
-											<td>{elem.name4}</td>
-										</tr>
-									);
-								}
-							})}
-						</tbody>
-					</table>
+							</tbody>
+						</table>
+					</div>
 				</div>
 				{/* <div className={classes.oneform}>
 					<h1>One Form Data:</h1>

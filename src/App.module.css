@@ -7,6 +7,8 @@ body {
 	/* background-color: bisque; */
 	margin: auto;
 	border-left: 1px solid black;
+    overflow: auto;
+    max-height: 35%;
 }
 table {
 	width: 100%;
@@ -52,17 +54,23 @@ tbody {
     border-color: darkgray;
     border-radius: 2.5%;
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+
+    overflow-y: auto;
 }
 h1 {
 	display: inline-block;
 	margin-bottom: 0.5rem;
 }
 .saveddata {
+    position: relative;
 	width: 70%;
 	max-width: 550px;
+
 }
 .mytable {
 	border: solid black 1px;
+
+
 }
 
 .myhead > tr > th {
@@ -110,8 +118,13 @@ h1 {
 
 .container span{
     color: darkmagenta;
-    font-size: large;
+    font-size: 0.8rem;
     padding-left: 10px;
     margin: auto;
     font-weight: 800;
+}
+
+.saveddata>div{
+    overflow: auto;
+    max-height: 36vh;
 }
