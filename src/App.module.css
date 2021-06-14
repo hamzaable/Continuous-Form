@@ -1,0 +1,99 @@
+body {
+	margin: auto;
+	font-family: monospace;
+}
+
+.myMain {
+	/* background-color: bisque; */
+	margin: auto;
+	border-left: 1px solid black;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+tr {
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-items: stretch;
+	align-items: stretch;
+}
+th {
+	background-color: brown;
+	color: white;
+	flex: 1;
+}
+th,
+td {
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	font-size: 1rem;
+	border-left: 0;
+	flex: 1;
+}
+thead,
+tbody {
+	border-left: 1px solid black;
+}
+
+.container {
+	width: 65%;
+	margin: auto;
+	/* border-left:1px solid black; */
+	margin-top: 20px;
+}
+h1 {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+.saveddata {
+	width: 70%;
+	max-width: 550px;
+}
+.mytable {
+	border: solid black 1px;
+}
+
+.myhead > tr > th {
+	background-color: rgb(204, 206, 206);
+	color: black;
+	font-size: 1rem;
+	border-color: transparent;
+}
+.mytable td,
+.mytable th {
+	font-size: 0.8rem;
+	border: 0px;
+	border-bottom: 1px solid black;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.mytable > tbody > tr {
+	font-size: 5rem;
+	border-bottom: 0px;
+	outline: 1px solid black;
+}
+.mytable > tbody > tr > td {
+	outline: 1px solid black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.myfooter{
+    background-color: rgb(187, 187, 187);
+    position: fixed;
+    bottom: 0px;
+    padding: 5px;
+    width:100%;
+}
+.myfooter span{
+    padding-left: 20px;
+    font-weight: 700;
+}
+.oneform{
+    width: 100%;
+    background-color:bisque;
+    height:100px;
+}
